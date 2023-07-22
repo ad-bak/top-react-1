@@ -1,0 +1,33 @@
+.cvHeader {
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  background-color: #121212;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 100;
+  color: #fff;
+}
+
+.cvHeaderContainer section > span:first-of-type {
+  font-weight: bold;
+}
+
+.cvHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.importantBonusContainer {
+  display: flex;
+}
+
+.importantBonusContainer > div {
+  flex: 1;
+}
+
+.cvHeaderContainer .address {
+  display: flex;
+  flex-direction: column;
+}
