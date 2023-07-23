@@ -1,0 +1,18 @@
+.linkWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.iconLabelWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.addressType {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.addressType .iconLabelWrapper {
+  margin-bottom: 6px;
+}
