@@ -2,6 +2,14 @@
   display: flex;
 }
 
-.main > * {
+.main > div {
   flex: 1;
+}
+
+hr {
+  /* turn vertically */
+  width: 5px;
+  height: 100vh;
+
+  background: red;
 }
