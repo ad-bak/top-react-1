@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <img src={cvIcon} alt="CV Icon" className={styles.icon} />
-      <span className={styles.headerTitle}>CV Builder</span>
+      <span className={styles.headerTitle}>dummy test</span>
     </header>
   );
 }

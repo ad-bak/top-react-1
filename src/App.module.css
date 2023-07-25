@@ -6,10 +6,9 @@
   flex: 1;
 }
 
-hr {
-  /* turn vertically */
+.separator {
   width: 5px;
-  height: 100vh;
+  height: auto;
 
   background: red;
 }

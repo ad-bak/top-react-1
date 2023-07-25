@@ -10,7 +10,7 @@ function App(): JSX.Element {
       <Header />
       <main className={styles.main}>
         <LeftScreen />
-        <hr />
+        <hr className={styles.separator} />
         <RightScreen />
       </main>
     </>

@@ -21,21 +21,34 @@ const CustomLink: React.FC<CustomLinkProps> = ({
 }) => {
   let Icon;
   let content;
+  let shortenedLink;
 
   switch (type) {
     case "linkedin":
       Icon = LinkedInIcon;
+      shortenedLink = link?.replace("https://", "");
+      content = (
+        <a href={link} target="_blank" rel="noreferrer">
+          {shortenedLink}
+        </a>
+      );
       break;
     case "github":
       Icon = GithubIcon;
+      shortenedLink = link?.replace("https://", "");
+      content = (
+        <a href={link} target="_blank" rel="noreferrer">
+          {shortenedLink}
+        </a>
+      );
       break;
     case "address":
       Icon = PlaceIcon;
       content = (
         <div className={styles.addressContent}>
-          <p>{complementary}</p>
+          <p>{complementary},</p>
           <p>
-            {zipCode} {city}
+            {zipCode}, {city}
           </p>
         </div>
       );

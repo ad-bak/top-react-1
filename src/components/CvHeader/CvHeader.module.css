@@ -56,3 +56,11 @@
 .bonus {
   flex: 2;
 }
+
+.endOfTheSection {
+  /* hr at the end of the section that doesn't reach the sides and aligned in the center */
+  width: 90%;
+  margin: 0px auto 20px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}

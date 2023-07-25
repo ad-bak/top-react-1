@@ -1,0 +1,54 @@
+.yearBlock {
+  display: flex;
+  align-items: start;
+  padding-bottom: 1.5em;
+
+  position: relative;
+  padding-left: 80px;
+}
+
+.year {
+  position: absolute;
+  left: 0;
+  background: #eee;
+  padding: 0.2em 1em;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+  top: 0;
+}
+
+.details {
+  flex: 1;
+  padding-left: 1em;
+  position: relative;
+}
+
+.details::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0;
+  height: calc(100% + 1.5em); /* Adjusted this height */
+  border-left: 2px solid #ddd;
+  z-index: -1;
+}
+
+.position {
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.company {
+  font-weight: bold;
+  margin: 0.5em 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.description {
+  margin: 0;
+  color: #555;
+  font-size: 0.9em;
+}

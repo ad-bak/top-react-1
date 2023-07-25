@@ -1,6 +1,7 @@
 .linkWrapper {
   display: flex;
   align-items: center;
+  margin: 8px 2px;
 }
 
 .iconLabelWrapper {
@@ -13,6 +14,6 @@
   align-items: flex-start;
 }
 
-.addressType .iconLabelWrapper {
-  margin-bottom: 6px;
+.addressContent {
+  padding: 0 23px;
 }

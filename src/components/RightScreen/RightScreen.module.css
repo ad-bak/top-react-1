@@ -1,3 +1,15 @@
 .rightScreen {
+  padding: 10px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.cv {
+  height: 1123px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.15); /* optional: to give it a paper-like feel */
+  margin: 20px auto; /* optional: centers the CV on the page */
+  overflow: hidden; /* optional: to ensure content doesn't spill over */
   border: 1px solid black;
 }

@@ -1,0 +1,10 @@
+/* You already have a rule for adding margin at the top of the first yearBlock. Retain that. */
+div > :first-child .yearBlock {
+  margin-top: 2em; /* This adds space above the first item */
+}
+
+hr {
+  margin: 0px auto 20px;
+  border: 0;
+  border-top: 1px solid #000;
+}
